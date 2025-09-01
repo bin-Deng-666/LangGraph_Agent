@@ -11,7 +11,7 @@
 ```
 Agent/
 ├── examples/          # 示例Agent目录
-│   ├── db_assistant/  # 数据库助手Agent
+│   ├── simple_agent/  # 简单时间查询Agent
 │   └── general_assistant/ # 通用助手Agent
 ├── src/               # 核心源代码
 ├── resources/         # 资源文件
@@ -30,8 +30,8 @@ pip install -r requirements.txt
 ### 2. 运行示例Agent
 进入具体的Agent目录运行相应的demo：
 ```bash
-cd examples/db_assistant
-python demo.py
+cd examples/simple_agent
+python simple_agent.py
 ```
 
 ### 3. 创建新的Agent

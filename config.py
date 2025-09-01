@@ -12,7 +12,3 @@ resource_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "resourc
 
 # 确保资源目录存在
 os.makedirs(resource_dir, exist_ok=True)
-
-# 提示词模板目录配置
-template_dir = os.path.join(resource_dir, "prompts")
-os.makedirs(template_dir, exist_ok=True)
