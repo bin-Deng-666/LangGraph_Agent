@@ -11,7 +11,7 @@
 ```
 Agent/
 ├── examples/          # 示例Agent目录
-│   ├── simple_agent/  # 简单时间查询Agent
+│   ├── simple_agent/  # 简单Agent
 │   └── general_assistant/ # 通用助手Agent
 ├── src/               # 核心源代码
 ├── resources/         # 资源文件
