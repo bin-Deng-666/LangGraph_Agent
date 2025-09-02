@@ -32,7 +32,7 @@ def run_agent(agent:CompiledStateGraph, message:str):
         last_message = message[-1]
         last_message.pretty_print()
 
-# 3. 主程序入口 - 参照db.py的交互模式
+# 3. 主程序入口
 if __name__ == "__main__":
     while True:
         query = input("输入你的问题:")
